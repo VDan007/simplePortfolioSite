@@ -424,6 +424,8 @@ body:not(.user-is-tabbing) a:focus {
     .header {
         text-align: center;
         background: url('./images/header__small.jpg');
+        background-color: rgba(0,0,0, .6);
+        background-blend-mode: darken;
     }
 
     .header__text p {
