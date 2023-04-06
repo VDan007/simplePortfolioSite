@@ -399,7 +399,7 @@ body:not(.user-is-tabbing) a:focus {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0,0,0, 0.6);
     background-blend-mode: darken;
     font-size: var(--font-size-normal);
    
@@ -424,7 +424,11 @@ body:not(.user-is-tabbing) a:focus {
     .header {
         text-align: center;
         background: url('./images/header__small.jpg');
-        background-color: rgba(0,0,0, .6);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: rgba(0,0,0, 0.8);
         background-blend-mode: darken;
     }
 
