@@ -423,7 +423,7 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .header {
         text-align: center;
-        background-size: fill;
+        background: url('./images/header__small.jpg');
     }
 
     .header__text p {
