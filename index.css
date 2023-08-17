@@ -263,6 +263,10 @@ body:not(.user-is-tabbing) a:focus {
     border-bottom: 1px solid var(--pink);
 }
 
+.results_h4{
+    color: var(--pink);
+}
+
 .link__text::after {
     content: '';
     display: block;
@@ -564,6 +568,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .contact__info {
     max-width: var(--container-medium-width);
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
