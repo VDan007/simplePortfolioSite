@@ -39,3 +39,6 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+
+particlesJS.load("particles","p_config.json");

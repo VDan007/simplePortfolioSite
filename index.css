@@ -406,6 +406,7 @@ body:not(.user-is-tabbing) a:focus {
     background-color: rgba(0,0,0, 0.6);
     background-blend-mode: darken;
     font-size: var(--font-size-normal);
+    overflow: hidden;
    
 }
 
@@ -537,7 +538,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+   
     
 }
 
@@ -610,4 +611,16 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+
+
+.highlight_span {
+    text-decoration: underline;
+    text-decoration-color: var(--pink);
+}
+.highlight_span:hover{
+    color: var(--pink);
+    text-decoration-color: white;
+    
 }
