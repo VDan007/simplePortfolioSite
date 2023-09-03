@@ -632,3 +632,10 @@ body:not(.user-is-tabbing) a:focus {
         
     }
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
