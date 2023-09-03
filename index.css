@@ -643,6 +643,12 @@ form {
     grid-gap: 1em;
 }
 
+form > input{
+    background-color: black;
+    color:white;
+    border: 1px solid var(--pink);
+}
+
 #project__details {
     grid-column: 1/3;
     
