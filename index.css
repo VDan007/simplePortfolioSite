@@ -428,7 +428,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 500px) {
     .header {
-        text-align: center;
+        text-align: center; 
         background: url('./images/header__small.jpg');
         height: 100vh;
         background-size: cover;
@@ -572,7 +572,9 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
+    justify-content: center;
+    border: 1px solid red;
 }
 
 
@@ -634,8 +636,28 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    max-width: var(--container-medium-width);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-gap: 1em;
+}
+
+#project__details {
+    grid-column: 1/3;
     
-    
+}
+
+
+
+input {
+    padding-left: 8px
+}
+
+
+
+.form__btn_div {
+    grid-column: 1/3;
+    text-align: center;
+   
 }
