@@ -681,7 +681,7 @@ body:not(.user-is-tabbing) a:focus {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-  
+    max-width: :100%;
     
 }
 
