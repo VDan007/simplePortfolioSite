@@ -683,15 +683,16 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: space-evenly;
     max-width:100%;
     
-    
+
 }
 
 form {
-    max-width: var(--container-max-width);
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 3fr 1fr;
     grid-gap: 1em;
+    
 }
 
 form > input,
